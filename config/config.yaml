@@ -1,0 +1,10 @@
+httpbin:
+  base_url: "https://httpbin.org"
+  timeout: 10
+
+retry:
+  attempts: 3
+  backoff_seconds: 1.5
+
+report:
+  output_dir: "reports"
